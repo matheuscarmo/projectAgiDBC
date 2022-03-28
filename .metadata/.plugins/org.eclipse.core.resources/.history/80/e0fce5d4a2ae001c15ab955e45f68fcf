@@ -1,0 +1,31 @@
+package elementos;
+
+import org.openqa.selenium.By;
+
+public class ElementosWeb {
+	
+	//Elementos Web
+	
+	By pesquisar = By.id("search-open");
+	By escrever = By.xpath("//*[@id=\"masthead\"]/div[1]/div[2]/form/label/input");
+	
+
+	//Metodos publicos dos elementos
+
+	public By getPesquisar() {
+		return pesquisar;
+	}
+
+	public void setPesquisar(By pesquisar) {
+		this.pesquisar = pesquisar;
+	}
+	
+	public By getEscrever() {
+		return escrever;
+	}
+
+	public void setEscrever(By escrever) {
+		this.escrever = escrever;
+	}
+
+}

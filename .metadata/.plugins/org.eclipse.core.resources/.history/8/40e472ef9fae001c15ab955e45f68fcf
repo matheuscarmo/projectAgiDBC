@@ -1,0 +1,22 @@
+package elementos;
+
+import org.openqa.selenium.By;
+
+public class ElementosWeb {
+	
+	//Elementos Web
+	
+	By pesquisar = By.id("//*[@id=\"search-open\"]");
+	
+	//Metodos publicos dos elementos
+
+	public By getPesquisar() {
+		return pesquisar;
+	}
+
+	public void setPesquisar(By pesquisar) {
+		this.pesquisar = pesquisar;
+	}
+	
+
+}

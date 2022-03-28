@@ -1,0 +1,36 @@
+package testes;
+
+import io.cucumber.java.en.Given;
+import io.cucumber.java.en.Then;
+import io.cucumber.java.en.When;
+import pages.Metodos;
+
+public class Steps {
+
+	Metodos metodos = new Metodos();
+	
+	@Given("que o usuario tem acesso ao blog {string}")
+	public void que_o_usuario_tem_acesso_ao_blog(String appUrl) {
+		metodos.abrirNavegador(appUrl, "acessando site");
+	}
+
+	@When("for realizar pesquisa com dados inválidos")
+	public void for_realizar_pesquisa_com_dados_inválidos() {
+
+	}
+
+	@Then("nao devera retornar os artigos")
+	public void nao_devera_retornar_os_artigos() {
+
+	}
+
+	@When("for realizar pesquisa com palavras chaves")
+	public void for_realizar_pesquisa_com_palavras_chaves() {
+
+	}
+
+	@Then("devera retornar os artigos relacionaddo a pesquisa das palavras chave")
+	public void devera_retornar_os_artigos_relacionaddo_a_pesquisa_das_palavras_chave() {
+
+	}
+}

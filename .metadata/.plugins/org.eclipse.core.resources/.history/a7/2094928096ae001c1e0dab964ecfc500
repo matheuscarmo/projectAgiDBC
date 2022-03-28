@@ -1,0 +1,11 @@
+package pages;
+
+public class metodos {
+	
+	WebDriver driver
+	
+	public void abrirNavagador(String appUrl, String descricaoPasso) {
+		
+	}
+
+}

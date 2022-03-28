@@ -1,0 +1,28 @@
+package pages;
+
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+
+public class Metodos {
+	
+	WebDriver driver;
+	
+	public void abrirNavegador(String appUrl, String descricaoPasso) {
+		
+		System.setProperty("webdriver.chrome.driver", "C:\\Drivers\\chromedriver.exe");
+		driver = new ChromeDriver();
+		driver.get(appUrl);
+		driver.manage().window().maximize();
+		
+	}
+	
+	public void escrever(String texto, By elemento) {
+		
+		driver.findElement(elemento).sendKeys(texto);
+	}
+	
+	public void fecharNavegador(String appUrl, String descriPasso) {
+		driver.quit();
+		
+	}
+}
