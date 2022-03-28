@@ -9,9 +9,27 @@ public class ElementosWeb {
 	By btnPesquisar = By.id("search-open");
 	By pesquisar = By.xpath("//*[@id=\"masthead\"]/div[1]/div[2]/form/label/input");
 	By sendPesquisar = By.xpath("//*[@id=\"masthead\"]/div[1]/div[2]/form/input");
+	By txtNaoEncontrado = By.xpath("//h1[contains(text(),'Nenhum resultado')]");
+	By txtPalavraChave = By.xpath("//span[contains(text(),'pix')]");
 	
 
 	//Metodos publicos dos elementos
+
+	public By getTxtNaoEncontrado() {
+		return txtNaoEncontrado;
+	}
+
+	public void setTxtNaoEncontrado(By txtNaoEncontrado) {
+		this.txtNaoEncontrado = txtNaoEncontrado;
+	}
+
+	public By getTxtPalavraChave() {
+		return txtPalavraChave;
+	}
+
+	public void setTxtPalavraChave(By txtPalavraChave) {
+		this.txtPalavraChave = txtPalavraChave;
+	}
 
 	public By getPesquisar() {
 		return pesquisar;

@@ -394,3 +394,27 @@
 2022-03-28 11:39:49,377 [Worker-64: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\matheus.carmo\OneDrive - KEEGGO TECHNOLOGY BRASIL S A\Documentos\Projetos\blogagi-ui\src\main\resources
 2022-03-28 11:39:49,379 [Worker-64: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
 2022-03-28 11:39:49,382 [Worker-64: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-03-28 12:10:11,762 [Worker-68: Launching blogAgi.feature] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-03-28 12:10:11,767 [Worker-68: Launching blogAgi.feature] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\matheus.carmo\OneDrive - KEEGGO TECHNOLOGY BRASIL S A\Documentos\Projetos\blogagi-ui\src\main\resources
+2022-03-28 12:10:11,769 [Worker-68: Launching blogAgi.feature] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-03-28 12:10:11,773 [Worker-68: Launching blogAgi.feature] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-03-28 12:16:17,664 [Worker-72: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-03-28 12:16:17,668 [Worker-72: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\matheus.carmo\OneDrive - KEEGGO TECHNOLOGY BRASIL S A\Documentos\Projetos\blogagi-ui\src\main\resources
+2022-03-28 12:16:17,669 [Worker-72: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-03-28 12:16:17,672 [Worker-72: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-03-28 12:32:15,544 [Worker-78: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-03-28 12:32:15,547 [Worker-78: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\matheus.carmo\OneDrive - KEEGGO TECHNOLOGY BRASIL S A\Documentos\Projetos\blogagi-ui\src\main\resources
+2022-03-28 12:32:15,548 [Worker-78: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-03-28 12:32:15,551 [Worker-78: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-03-28 12:32:36,575 [Worker-79: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-03-28 12:32:36,578 [Worker-79: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\matheus.carmo\OneDrive - KEEGGO TECHNOLOGY BRASIL S A\Documentos\Projetos\blogagi-ui\src\main\resources
+2022-03-28 12:32:36,579 [Worker-79: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-03-28 12:32:36,583 [Worker-79: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-03-28 12:36:49,445 [Worker-78: Launching blogAgi.feature] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-03-28 12:36:49,450 [Worker-78: Launching blogAgi.feature] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\matheus.carmo\OneDrive - KEEGGO TECHNOLOGY BRASIL S A\Documentos\Projetos\blogagi-ui\src\main\resources
+2022-03-28 12:36:49,451 [Worker-78: Launching blogAgi.feature] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-03-28 12:36:49,458 [Worker-78: Launching blogAgi.feature] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-03-28 12:38:57,452 [Worker-80: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-03-28 12:38:57,455 [Worker-80: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\matheus.carmo\OneDrive - KEEGGO TECHNOLOGY BRASIL S A\Documentos\Projetos\blogagi-ui\src\main\resources
+2022-03-28 12:38:57,456 [Worker-80: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-03-28 12:38:57,460 [Worker-80: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource

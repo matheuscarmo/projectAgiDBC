@@ -1,10 +1,16 @@
 package pages;
 
+import static org.junit.Assert.assertArrayEquals;
+import static org.junit.Assert.assertEquals;
+
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 
 public class Metodos {
+	
+	String textoChaveEsperado = "pix";
+	String textoNaoEncontradoEsperado = "Nenhum resultado";
 	
 	WebDriver driver;
 	
@@ -34,6 +40,18 @@ public class Metodos {
 	public void submit(By elemento) {
 		
 		driver.findElement(elemento).submit();
+	}
+	
+	public void validarPesquisaChave(String texto, By elemento) {
+		
+		String textoChave = driver.findElement(elemento).getText();
+		assertEquals(textoChaveEsperado, textoChave);
+	}
+	
+	public void validarPesquisaNaoEncontrada(String texto, By elemento) {
+		
+		String textoNaoEncontrado = driver.findElement(elemento).getText();
+		assertEquals(textoNaoEncontradoEsperado, textoNaoEncontrado);
 	}
 	
 	public void fecharNavegador() {

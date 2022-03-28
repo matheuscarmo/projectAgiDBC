@@ -26,6 +26,7 @@ public class Steps {
 
 	@Then("nao devera retornar os artigos")
 	public void nao_devera_retornar_os_artigos() {
+		metodos.validarPesquisaNaoEncontrada("Nenhum Resultado", elementosWeb.getTxtNaoEncontrado());
 		metodos.fecharNavegador();
 
 	}
@@ -39,6 +40,7 @@ public class Steps {
 
 	@Then("devera retornar os artigos relacionaddo a pesquisa das palavras chave")
 	public void devera_retornar_os_artigos_relacionaddo_a_pesquisa_das_palavras_chave() {
+		metodos.validarPesquisaChave("pix", elementosWeb.getTxtPalavraChave());
 		metodos.fecharNavegador();
 	}
 }
